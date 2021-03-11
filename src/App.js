@@ -1,12 +1,14 @@
 import './App.css';
+import Sidebar from './components/sidebar/Sidebar';
+import Chat from './components/chat/Chat';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <code>This is a built for a <span>"Whatsapp Clone"</span> application using Node Express, React, and Mongodb</code>
-        <p>Hosted by <span>"Google Filerbase"</span></p>
-      </header>
+    <div className="app">
+      <Sidebar>
+      </Sidebar>
+
+      <Chat />
     </div>
   );
 }
