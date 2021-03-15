@@ -1,0 +1,16 @@
+.sidebar__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4.5rem;
+}
+
+.sidebar__headerLeft button {
+    margin-left: 5px;
+}
+
+.sidebar__headerRight {
+    display: flex;
+    justify-content: space-between;
+    min-width: 10vw;
+}

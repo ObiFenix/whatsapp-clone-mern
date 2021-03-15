@@ -1,0 +1,15 @@
+.chat__room {
+    display: flex;
+    flex-direction: column;
+}
+
+.chat__room__body {
+    flex: 1;
+    background-image: url("https://fsa.zobj.net/crop.php?r=oVKKRdxQELuCDWqKISJhp1ooIsiZdafjDtxkoaslzyfYDnoKibpFMcAQYoGIBtyTEJnQ8-IEGSxY__EpdNOgBNWFmzqT5nQ30z8x_so3asxF06ao3oaiHxIXibO4aAmYhPfA_ofa6lCLiBZkmDJsOeuaHZ64Gm24HQwjN0c8CLRLY0Rxh5i5wbXvMUY");
+    /* background-image: url("https://wallpapercave.com/wp/wp6988787.png"); */
+    /* background-image: url("https://i.pinimg.com/736x/40/39/e0/4039e0f1ef08b7b965bacb4641a7af49--wallpaper-whatsapp-whatsapp-background.jpg"); */
+    /* background-image: url("https://wallpaperaccess.com/full/1288171.jpg"); */
+    background-repeat: repeat;
+    background-position: center;
+    overflow: scroll;
+}

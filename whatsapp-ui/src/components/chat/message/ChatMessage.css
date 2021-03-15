@@ -1,0 +1,29 @@
+.message {
+    position: relative;
+    width: fit-content;
+    padding: 1rem;
+    font-size: small;
+    border-radius: 1rem;
+    margin: 2.5rem 1rem;
+    background-color: #ffff;
+    box-shadow: 1px 1px #dcf8;
+}
+
+.message--received {
+    margin-left: auto;
+    background-color: #dcf8c6;
+}
+
+.message .author {
+    color: gainsboro;
+    font-weight: bold;
+    font-size: smaller;
+    position: absolute;
+    top: -1.1rem;
+}
+
+.message .timestamp {
+    color: gray;
+    font-size: xx-small;
+    margin-left: 1rem;
+}

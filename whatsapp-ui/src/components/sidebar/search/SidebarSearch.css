@@ -1,0 +1,27 @@
+.sidebar__search {
+    display: flex;
+    height: 2.5rem;
+    padding: 1rem;
+    background-color: #f6f6f6;
+    border-top: 2px solid #f6f6ff;
+    border-bottom: 2px solid #f6f6ff;
+}
+
+.sidebar__searchContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border-radius: 2rem;
+    background-color: #ffffff;
+}
+
+.sidebar__searchContainer .MuiSvgIcon-root {
+    color: gray;
+}
+
+.sidebar__searchContainer input {
+    padding: 0;
+    border: none;
+    outline: none;
+    font-size: small;
+}

@@ -1,0 +1,25 @@
+
+.chat__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f6f6f6;
+    height: 4.5rem;
+}
+
+.chat__headerLeft {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.chat__headerLeft .chat__headerInfo {
+    margin-left: 1rem;
+}
+
+.chat__headerLeft p {
+    font-size: small;
+    color: #555;
+    margin-top: .2rem;
+}
